@@ -1,0 +1,205 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	30 ".\mdl\pbit.kmd"
+	31 ".\mdl\kworld.kmd"
+}
+Scene "kworld" {
+	SceneTrack ""
+	SceneTime 16000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 5
+		Time {
+			0
+			0.145973
+			0.355705
+			0.500356
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-1.37513 0.786879 3.737
+				-1.1663 1.42652 6.76621
+				2.70687 0.530658 2.23021
+				3.91053 0.956215 -0.359334
+				1.21558 1.38881 -0.534781
+			}
+			Rotation {
+				0 0 0
+				0 19.1312 0
+				0 46.4008 0
+				0 4.29577 0
+				0 0 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				-1.21748 -0.165222 2.69726
+				-0.809269 -0.146266 5.50022
+				2.08247 -0.658367 1.58367
+				2.2433 -0.114964 0.0419073
+				2.59008 -0.243121 -1.35053
+			}
+		}
+	}
+	Object 31 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 -0.644013 0
+				0 -0.644013 0
+			}
+		}
+		Part "kr" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 30 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "pt2" {
+			Position {
+				5.56524 -0.359316 5.06835
+				7.9769 -0.359316 5.06835
+			}
+			Rotation {
+				90.344 0 0
+				90.344 0 0
+			}
+		}
+		Part "pt1" {
+			Position {
+				0 0 0
+				9.63343 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				17.0003 0 0
+				-24.135 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 11.5656 0
+				0 -18.2011 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				12.963 0 0
+				-26.3834 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 19.4007 0
+				0 -31.0075 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 -23.646 0
+				0 17.6194 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				23.281 0 0
+				-32.6351 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				21.1025 0 0
+				-28.6798 0 0
+			}
+		}
+		Part "pt1" {
+			Position {
+				0 -0.126582 0
+				0 -0.241288 0
+			}
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+			Position {
+				0 -0.267179 0
+				0 0 0
+			}
+		}
+		Part "pt2" {
+			Position {
+				-16.3206 -2.74883 0
+				19.7065 -3.1299 0
+			}
+			Rotation {
+				90.344 0 0
+				90.344 0 0
+			}
+		}
+		Part "pt2" {
+			Position {
+				-17.3084 -0.273142 0
+				21.5154 -0.202211 0
+			}
+			Rotation {
+				90.344 0 0
+				90.344 0 0
+			}
+		}
+		Part "pt2" {
+			Position {
+				0 -2.48767 -19.377
+				2.12935 -2.41216 15.1496
+			}
+			Rotation {
+				90.344 0 0
+				90.344 0 0
+			}
+		}
+	}
+	Object 31 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.39959 0.289312 7.12058
+				0 0.218227 0
+			}
+		}
+		Part "kr" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+}
+Eof

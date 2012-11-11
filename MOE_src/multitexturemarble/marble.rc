@@ -1,0 +1,409 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "Icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MAINVIEW MENU 
+BEGIN
+    POPUP "File(&File)"
+    BEGIN
+        MENUITEM "New Project (&N)\tCtrl + N",  ID_FILE_NEW_PROJECT
+        MENUITEM "Open Project (&O)...\tCtrl + O", ID_FILE_OPEN_PROJECT
+        MENUITEM "Save Project (&S)\tCtrl + S", ID_FILE_SAVE_OW
+        MENUITEM "Save Project As (&A)...\tCtrl + Shift + S", 
+                                                ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Import(&I)...\tCtrl+I",       102
+        MENUITEM SEPARATOR
+        MENUITEM "CONFIG(&C)",                  ID_FILE_CONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_FILE_EXIT
+    END
+    POPUP "Edit(&Edit)"
+    BEGIN
+        MENUITEM "Undo (&U)\tU",                ID_EDIT_UNDO
+        MENUITEM "Redo (&R)\tShift + U",        ID_EDIT_REDO
+    END
+    POPUP "View (&View)"
+    BEGIN
+        MENUITEM "Clone Frame(&C)",             ID_VIEW_CLONEFRAME
+        MENUITEM "Primitive Frame (&P)",        ID_VIEW_PRIMITIVEFRAME
+        MENUITEM "Material Frame (&M)",         ID_VIEW_MATERIALFRAME
+    END
+END
+
+CLONEVIEW MENU 
+BEGIN
+    POPUP "Edit(&Edit)"
+    BEGIN
+        MENUITEM "New(&N)",                     ID_ITEMVIEW_NEW
+        MENUITEM "Import(&I)",                  ID_FILE_IMPORT
+        MENUITEM "EditName (&E)",               ID_ITEMVIEW_EDITNAME
+        MENUITEM "Delete (&D)",                 ID_ITEMVIEW_DELETE
+        MENUITEM "Property(&P)",                ID_ITEMVIEW_PROPERTY
+    END
+END
+
+MATERIALVIEW MENU 
+BEGIN
+    POPUP "Edit(&Edit)"
+    BEGIN
+        MENUITEM "New (&N)",                    ID_ITEMVIEW_NEW
+        MENUITEM "Copy(&C)",                    ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "Delete (&D)",                 ID_ITEMVIEW_DELETE
+        MENUITEM "Property",                    ID_ITEMVIEW_PROPERTY
+    END
+END
+
+PRIMITIVEVIEW MENU 
+BEGIN
+    POPUP "Edit(&Edit)"
+    BEGIN
+        MENUITEM "Load (&L)",                   ID_ITEMVIEW_LOAD
+        MENUITEM "Delete (&D)",                 ID_ITEMVIEW_DELETE
+        MENUITEM "Property",                    ID_ITEMVIEW_PROPERTY, GRAYED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+MAINACCEL ACCELERATORS 
+BEGIN
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW_PROJECT,    VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN_PROJECT,   VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_AS,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "S",            ID_FILE_SAVE_OW,        VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_FILE_IMPORT,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_MATERIAL_DIALOG DIALOGEX 0, 0, 520, 291
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Material Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,185,50,21
+    PUSHBUTTON      "キャンセル",IDCANCEL,7,211,50,21
+    EDITTEXT        IDC_MATERIAL_TEXTURE_FORMULA,135,43,245,15,
+                    ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_MATERIAL_PREVIEW,"Static",SS_BLACKFRAME,321,115,
+                    150,77
+    LTEXT           "texture formula",IDC_STATIC,87,34,51,8
+    LTEXT           "PREVIEW",IDC_STATIC,283,113,31,9
+    LTEXT           "subdivide",IDC_STATIC,16,135,31,8
+    EDITTEXT        IDC_MATERIAL_COLOR_R,13,37,56,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MATERIAL_COLOR_G,13,56,56,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MATERIAL_COLOR_B,13,76,56,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MATERIAL_COLOR_A,13,94,56,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "G",IDC_STATIC,72,58,8,8
+    LTEXT           "B",IDC_STATIC,72,79,8,8
+    LTEXT           "A",IDC_STATIC,72,98,8,8
+    GROUPBOX        "COLOR",IDC_STATIC,7,15,77,116
+    LTEXT           "R",IDC_STATIC,73,39,8,8
+    GROUPBOX        "LIGHTING",IDC_STATIC,101,116,82,62,WS_GROUP
+    CONTROL         "Flat",IDC_MATERIAL_LIGHTING_FLAT,"Button",
+                    BS_AUTORADIOBUTTON,115,140,28,10
+    CONTROL         "Smooth",IDC_MATERIAL_LIGHTING_SMOOTH,"Button",
+                    BS_AUTORADIOBUTTON,115,153,40,10
+    CONTROL         "Constant",IDC_MATERIAL_LIGHTING_CONSTANT,"Button",
+                    BS_AUTORADIOBUTTON,115,129,51,8
+    CONTROL         "WireFrame",IDC_MATERIAL_LIGHTING_WIREFRAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,117,164,51,10
+    EDITTEXT        IDC_MATERIAL_SUBDIVIDE,35,148,42,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "Load",IDC_MATERIAL_LOAD_TEXTURE,383,15,47,19
+    PUSHBUTTON      "Clear",IDC_MATERIAL_CLEAR_TEXTURE,384,39,47,19
+    PUSHBUTTON      "Generate",IDC_MATERIAL_GENERATE_TEXTURE,436,16,47,39,
+                    NOT WS_VISIBLE | WS_DISABLED
+    GROUPBOX        "BLEND FUNC",IDC_STATIC,101,182,199,50,WS_GROUP
+    COMBOBOX        IDC_MATERIAL_SFACTOR,139,194,148,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MATERIAL_DFACTOR,139,212,149,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "sfactor",IDC_STATIC,109,196,25,8
+    LTEXT           "dfactor",IDC_STATIC,109,214,24,8
+    LTEXT           "texture_cnt",IDC_STATIC,351,278,39,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_MATERIAL_TEXTURE_NUM,361,272,62,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_VISIBLE
+    COMBOBOX        IDC_MATERIAL_PAGE,141,17,36,16,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "current_texture",IDC_STATIC,87,19,52,8
+    COMBOBOX        IDC_MATERIAL_SOURCE0,269,63,63,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "source0",IDC_STATIC,239,65,25,8
+    COMBOBOX        IDC_MATERIAL_SOURCE1,269,78,63,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "source1",IDC_STATIC,239,81,25,8
+    COMBOBOX        IDC_MATERIAL_SOURCE2,269,94,63,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "source2",IDC_STATIC,239,97,25,8
+    COMBOBOX        IDC_MATERIAL_OPERAND0,371,62,62,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "operand 0",IDC_STATIC,335,65,36,8
+    COMBOBOX        IDC_MATERIAL_OPERAND1,371,78,62,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "operand 1",IDC_STATIC,335,81,33,8
+    LTEXT           "operand 2",IDC_STATIC,335,97,33,8
+    COMBOBOX        IDC_MATERIAL_OPERAND2,371,94,62,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MATERIAL_CHANNEL,194,63,44,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "channel",IDC_STATIC,167,65,26,8
+    COMBOBOX        IDC_MATERIAL_OPERATOR,163,78,75,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "operator",IDC_STATIC,135,82,27,8
+    COMBOBOX        IDC_MATERIAL_SCALE,163,94,75,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "scale",IDC_STATIC,143,98,17,8
+    PUSHBUTTON      "Init.Param.",IDC_MATERIAL_INIT_PARAM,122,63,40,13
+    COMBOBOX        IDC_MATERIAL_MAPPING,219,125,75,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "mapping",IDC_STATIC,185,125,28,8
+END
+
+ID_CLONE_DIALOG DIALOGEX 0, 0, 268, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_TOOLWINDOW
+CAPTION "Clone Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,211,74,50,39
+    PUSHBUTTON      "キャンセル",IDCANCEL,211,175,50,40
+    EDITTEXT        IDC_CLONE_PRIMITIVE_ID,17,44,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MATERIAL_ID,17,90,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_NAME,17,134,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MODE,17,178,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MASTER_NAME,116,48,66,13,ES_AUTOHSCROLL
+    GROUPBOX        "Clone Name",IDC_STATIC,7,120,92,37
+    GROUPBOX        "Clone Mode",IDC_STATIC,7,164,92,37
+    GROUPBOX        "Material ID",IDC_STATIC,7,76,92,37
+    GROUPBOX        "Primitive ID",IDC_STATIC,7,31,92,37
+    GROUPBOX        "Master Name(従属先)",IDC_STATIC,106,31,92,37
+    LTEXT           "(Clone Mode == 0) ? Primitive ID : CloneMode",
+                    IDC_STATIC,101,178,91,27
+END
+
+ID_PRIMITIVE_DIALOG DIALOGEX 0, 0, 235, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Clone Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,178,74,50,39,WS_DISABLED
+    PUSHBUTTON      "キャンセル",IDCANCEL,178,122,50,40
+    EDITTEXT        IDC_CLONE_NAME,17,94,66,13,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Clone Name",IDC_STATIC,7,80,92,37,WS_DISABLED
+    EDITTEXT        IDC_CLONE_PRIMITIVE_ID,17,44,66,13,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "Primitive ID",IDC_STATIC,7,31,92,37,WS_DISABLED
+    EDITTEXT        IDC_CLONE_MODE,17,138,66,13,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Clone Mode",IDC_STATIC,7,125,92,37,WS_DISABLED
+    LTEXT           "(Clone Mode  != 0) ? Primitive ID : CloneMode",
+                    IDC_STATIC,101,127,72,27,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    ID_MATERIAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 514
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    ID_CLONE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 215
+    END
+
+    "ID_PRIMITIVE_DIALOG", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 162
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_DRAG                CURSOR                  "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+ID_MATERIAL_DIALOG DLGINIT
+BEGIN
+    IDC_MATERIAL_SFACTOR, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_SFACTOR, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_DFACTOR, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_DFACTOR, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_SOURCE0, 0x403, 9, 0
+0x5250, 0x5645, 0x4f49, 0x5355, "\000" 
+    IDC_MATERIAL_SOURCE1, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_SOURCE1, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_SOURCE2, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_SOURCE2, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_OPERAND0, 0x403, 12, 0
+0x2d31, 0x5253, 0x5f43, 0x4c41, 0x4850, 0x0041, 
+    IDC_MATERIAL_OPERAND1, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_OPERAND1, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_OPERAND2, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_OPERAND2, 0x403, 6, 0
+0x5544, 0x4d4d, 0x0059, 
+    IDC_MATERIAL_CHANNEL, 0x403, 4, 0
+0x4752, 0x0042, 
+    IDC_MATERIAL_OPERATOR, 0x403, 4, 0
+0x4441, 0x0044, 
+    IDC_MATERIAL_OPERATOR, 0x403, 11, 0
+0x4441, 0x5f44, 0x4953, 0x4e47, 0x4445, "\000" 
+    IDC_MATERIAL_OPERATOR, 0x403, 9, 0
+0x5553, 0x5442, 0x4152, 0x5443, "\000" 
+    IDC_MATERIAL_OPERATOR, 0x403, 12, 0
+0x4e49, 0x4554, 0x5052, 0x524f, 0x5441, 0x0045, 
+    IDC_MATERIAL_SCALE, 0x403, 4, 0
+0x4441, 0x0044, 
+    IDC_MATERIAL_SCALE, 0x403, 11, 0
+0x4441, 0x5f44, 0x4953, 0x4e47, 0x4445, "\000" 
+    IDC_MATERIAL_SCALE, 0x403, 9, 0
+0x5553, 0x5442, 0x4152, 0x5443, "\000" 
+    IDC_MATERIAL_SCALE, 0x403, 12, 0
+0x4e49, 0x4554, 0x5052, 0x524f, 0x5441, 0x0045, 
+    IDC_MATERIAL_MAPPING, 0x403, 4, 0
+0x4441, 0x0044, 
+    IDC_MATERIAL_MAPPING, 0x403, 11, 0
+0x4441, 0x5f44, 0x4953, 0x4e47, 0x4445, "\000" 
+    IDC_MATERIAL_MAPPING, 0x403, 9, 0
+0x5553, 0x5442, 0x4152, 0x5443, "\000" 
+    IDC_MATERIAL_MAPPING, 0x403, 12, 0
+0x4e49, 0x4554, 0x5052, 0x524f, 0x5441, 0x0045, 
+    0
+END
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

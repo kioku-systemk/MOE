@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{76d5162a-efb8-46db-8bae-bfee2f13dd5a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\kLib">
+      <UniqueIdentifier>{68e6d160-67c8-42a8-b20c-28ce9f28763f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\CLibrary">
+      <UniqueIdentifier>{c2b966b2-b959-4a6c-87d8-2305967fa257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{04ca3d2a-cd39-4844-93f8-977978b9c52f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\kLib">
+      <UniqueIdentifier>{f74eb0a8-829f-412b-b562-93051bf4069b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\CLibrary">
+      <UniqueIdentifier>{81e2936c-ed65-42f0-bcbb-bf6f5a0d4f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{c00d51d3-f652-449d-9247-2a127ed746fb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Convert.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\multitexturemarble\stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\kmath.cpp">
+      <Filter>ソース ファイル\kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\kTexture.cpp">
+      <Filter>ソース ファイル\kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\kTextureEdit.cpp">
+      <Filter>ソース ファイル\kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CTrace.cpp">
+      <Filter>ソース ファイル\CLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindow.cpp">
+      <Filter>ソース ファイル\CLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindowBase.cpp">
+      <Filter>ソース ファイル\CLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindowGL.cpp">
+      <Filter>ソース ファイル\CLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CLibrary\CTrace.h">
+      <Filter>ソース ファイル\CLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\multitexturemarble\stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\kmath.h">
+      <Filter>ヘッダー ファイル\kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\kTexture.h">
+      <Filter>ヘッダー ファイル\kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\kTextureEdit.h">
+      <Filter>ヘッダー ファイル\kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindow.h">
+      <Filter>ヘッダー ファイル\CLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindowBase.h">
+      <Filter>ヘッダー ファイル\CLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindowGL.h">
+      <Filter>ヘッダー ファイル\CLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KTG.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,227 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 434, 363
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | 
+    WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "Input Texture Formula..."
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_BYTES,88,316,175,25
+    CONTROL         "",IDC_EDIT1,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_NOHIDESEL | ES_WANTRETURN | 
+                    WS_BORDER | WS_VSCROLL | WS_HSCROLL,0,7,320,80,
+                    WS_EX_NOPARENTNOTIFY | WS_EX_ACCEPTFILES | 0x2L
+    LTEXT           "",IDC_SUGGEST,3,312,421,16
+    PUSHBUTTON      "CLOSE(ESC)",IDCANCEL,357,308,67,37,NOT WS_VISIBLE | NOT 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "Preview(Enter)",ID_DO_EFFECT,271,308,67,37,NOT 
+                    WS_VISIBLE | NOT WS_TABSTOP
+    EDITTEXT        IDC_SIZE_WIDTH,84,343,33,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZE_HEIGHT,130,343,33,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SET",IDC_SIZE_OK,170,341,40,17
+    LTEXT           "x",IDC_SIZE_STATIC,122,346,8,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 424
+        VERTGUIDE, 134
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New(&N)...\tCtrl+N",          ID_FILE_NEW_TEXTURE
+        POPUP "Open(&O)"
+        BEGIN
+            MENUITEM "txt\tCtrl+O",                 ID_FILE_OPEN_TEXTURE
+            MENUITEM "picture",                     ID_OPEN_PICTURE
+        END
+        MENUITEM "Save\tCtrl+S",                ID_FILE_SAVE_OW
+        MENUITEM "Save As...\tCtrl+Shift+S",    ID_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        POPUP "Export(&E)"
+        BEGIN
+            MENUITEM "KTF...\tCtrl+E",              ID_FILE_EXPORT
+            MENUITEM "BMP(32bit)...",               ID_EXPORT_32BMP, GRAYED
+            MENUITEM "BMP(24bit)...",               ID_EXPORT_24BMP, GRAYED
+            MENUITEM "BMP(24bit)[dkImage Compatible]...", ID_EXPORT_DKIMAGE
+            , GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Input texture formula",       ID_EDIT_INPUT
+        MENUITEM "Copy texture formula to Clipboard", 
+                                                ID_EDIT_COPYTOCLIPBOARD
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "Window Size"
+        BEGIN
+            MENUITEM "x1",                          ID_WINDOWSIZE_X1
+            MENUITEM "x2",                          ID_WINDOWSIZE_X2
+            MENUITEM "x3",                          ID_WINDOWSIZE_X3
+            MENUITEM "x4",                          ID_WINDOWSIZE_X4
+        END
+        POPUP "下絵 Transparency"
+        BEGIN
+            MENUITEM "1.00f",                       ID_UNDERTEX_100
+            MENUITEM "0.75f",                       ID_UNDERTEX_075
+            MENUITEM "0.50f",                       ID_UNDERTEX_050
+            MENUITEM "0.25f",                       ID_UNDERTEX_025
+            MENUITEM "0.00f",                       ID_UNDERTEX_000
+        END
+        POPUP "テクスチャ Transparency"
+        BEGIN
+            MENUITEM "1.00f",                       ID_MASTERTEX_100
+            MENUITEM "0.75f",                       ID_MASTERTEX_075
+            MENUITEM "0.50f",                       ID_MASTERTEX_050
+            MENUITEM "0.25f",                       ID_MASTERTEX_025
+            MENUITEM "0.00f",                       ID_MASTERTEX_000
+        END
+        POPUP "Alpha-Texture Transparency"
+        BEGIN
+            MENUITEM "1.00f",                       ID_ALPHATEX_100
+            MENUITEM "0.75f",                       ID_ALPHATEX_075
+            MENUITEM "0.50f",                       ID_ALPHATEX_050
+            MENUITEM "0.25f",                       ID_ALPHATEX_025
+            MENUITEM "0.00f",                       ID_ALPHATEX_000
+        END
+        MENUITEM "Font(&F)...",                 ID_VIEW_FONT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "ヘルプ",                      ID_HELP_ARC
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+MYACCEL ACCELERATORS 
+BEGIN
+    VK_F5,          ID_DO_EFFECT,           VIRTKEY, NOINVERT
+    "E",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN_TEXTURE,   VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_OW,        VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVEAS,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "A",            ID_SELECT_ALL,          VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW_TEXTURE,    VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "E",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN_TEXTURE,   VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_OW,        VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVEAS,         VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "N",            ID_FILE_NEW_TEXTURE,    VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

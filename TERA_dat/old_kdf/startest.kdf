@@ -1,0 +1,225 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	0 ".\mdl\stars.kmd"
+}
+Scene "scene_name" {
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-3.06102 3.78812 6.57214
+				-3.06102 3.78812 6.57214
+			}
+		}
+		Part "camera_lookat" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Scale {
+				1 1 1
+				-2.42814e-005 0.00842542 0.00423328
+			}
+		}
+		Part "starc" {
+		}
+		Part "starb" {
+		}
+		Part "stara" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starc" {
+		}
+		Part "starc" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				94.0178 0 -158.573
+				94.0178 0 -158.573
+			}
+			Scale {
+				1 1 1
+				-2.42814e-005 0.00842542 0.00423328
+			}
+		}
+		Part "starc" {
+			Rotation {
+				0 0 0
+				0 0 -0.187019
+			}
+		}
+		Part "starb" {
+			Rotation {
+				0 0 0
+				60.8748 0 -126.45
+			}
+		}
+		Part "stara" {
+			Rotation {
+				0 0 0
+				517.177 -126.749 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				-212.553 0 -722.887
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				893.674 -175.284 -480.501
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				645.714 -319.98 587.989
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				-167.528 -331.829 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				254.829 -326.527 385.163
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				400.927 -275.145 275.243
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				483.771 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -652.302
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				-44.3493 -197.628 47.4866
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				512.346 -149.039 444.431
+			}
+		}
+		Part "no_name" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "stara" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starb" {
+		}
+		Part "starc" {
+		}
+		Part "starc" {
+		}
+	}
+}
+Eof

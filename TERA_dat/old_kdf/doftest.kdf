@@ -1,0 +1,4594 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	8 ".\mdl\smokes.kmd"
+	9 ".\mdl\gbeam.kmd"
+	11 ".\mdl\light_eff.kmd"
+	12 ".\mdl\sadf.kmd"
+	14 ".\mdl\enban.kmd"
+	15 ".\mdl\laser.kmd"
+	16 ".\mdl\particle.kmd"
+	17 ".\mdl\tukic.kmd"
+	18 ".\mdl\broom.kmd"
+	19 ".\mdl\rdcir.kmd"
+	20 ".\mdl\white.kmd"
+	21 ".\mdl\higeball.kmd"
+	22 ".\mdl\iparticle.kmd"
+	23 ".\mdl\tera.kmd"
+}
+Scene "title" {
+	SceneTime 15000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.498681
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				8.77546 0.507731 -0.371765
+				8.77546 0.507731 -0.371765
+				8.79547 0.507731 -1.97787
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				-15.671 -0.971571 -5.80397
+				-15.671 -0.971571 -5.80397
+				-15.671 -0.971571 -5.80397
+			}
+			Rotation {
+				97.0247 31.02 6.60594
+				98.175 22.094 6.47328
+				99.3313 13.1207 6.33991
+			}
+		}
+	}
+	Object 20 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+	}
+	Object 21 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.0989933
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.28279 0 2.21032
+				23.06 -28.6667 22.328
+			}
+			Alpha {
+				0
+				0.838333
+				0.838333
+			}
+		}
+		Part "h2b" {
+		}
+		Part "higeball" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+			Rotation {
+				6.32915 0 15.7683
+				6.32915 0 15.7683
+				6.32915 0 15.7683
+			}
+			Scale {
+				1 0.199842 1
+				1 0.279052 1
+				1 1 1
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				8.80496 0 5.43288
+				8.80496 0 5.43288
+				8.80496 0 5.43288
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				17.7102 0 -8.04957
+				17.7102 0 -8.04957
+				17.7102 0 -8.04957
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				19.1665 0 -18.2663
+				19.1665 0 -18.2663
+				19.1665 0 -18.2663
+			}
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higeball" {
+		}
+		Part "higeball" {
+		}
+		Part "higeball" {
+		}
+		Part "h2b" {
+		}
+		Part "h2b" {
+		}
+		Part "h2b" {
+		}
+	}
+	Object 23 {
+		CameraTrans 2
+		Visible 1
+		DataNum 5
+		Time {
+			0
+			0.100264
+			0.401055
+			0.502639
+			1
+		}
+		Part "no_name" {
+			Position {
+				-2.01775 0 6.59933
+				-2.20504 0 6.59933
+				-2.58908 0 6.59933
+				-2.74235 0 6.59933
+				-3.88569 0 6.59933
+			}
+			Rotation {
+				0 180.302 0
+				0 180.302 0
+				0 180.302 0
+				0 180.302 0
+				0 180.302 0
+			}
+			Scale {
+				2.43333 -8.19564e-008 1
+				1 0.633333 1
+				1 0.633333 1
+				2.4 -8.19564e-008 1
+				1 1 1
+			}
+			Alpha {
+				0
+				1
+				1
+				0
+				0
+			}
+		}
+	}
+	Object 22 {
+		CameraTrans 2
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "pt2" {
+			Position {
+				0 -17.6022 20.7548
+				0 11.017 20.7548
+			}
+		}
+		Part "pt1" {
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0.891562 -0.343829 8.17522
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0.621663 -0.264078 5.52477
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				1.51493 3.33775 9.37959
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				-1.98186 0.416786 -10.7299
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				2.27731 5.19615 16.4513
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				-1.41574 2.9196 4.14632
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0.354453 -2.01238 -10.2848
+			}
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt2" {
+		}
+		Part "pt2" {
+		}
+		Part "pt2" {
+		}
+	}
+}
+Scene "app-temple" {
+	SceneTime 15000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				7.57223 2.49563 -71.707
+				0 2.00714 -8.2016
+			}
+			Rotation {
+				0 86.3082 0
+				0 86.9796 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				0 2.45193 0
+				0 2.45193 0
+			}
+			Rotation {
+				63.6667 18.3333 0.96665
+				63.6667 50.3333 3.63332
+			}
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 428.265
+				0 -0.706202 609.271
+			}
+			Alpha {
+				1.21667
+				1.21667
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 116.066
+				0 55.8954 251.182
+			}
+			Alpha {
+				0.309132
+				0.309132
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 225.088
+				0 -38.6163 302.121
+			}
+			Alpha {
+				0.246542
+				0.246542
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 543.593
+				0 53.916 727.878
+			}
+			Alpha {
+				0.903535
+				0.903535
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 -99.5741
+				4.35114 -48.6161 81.718
+			}
+			Alpha {
+				0.37325
+				0.37325
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 -435.309
+				46.6245 -2.01253 -211.96
+			}
+			Alpha {
+				0.228785
+				0.228785
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 -304.85
+				-54.93 0 -123.635
+			}
+			Alpha {
+				0.325563
+				0.325563
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 -322.798
+				2.56532 0 -134.593
+			}
+			Alpha {
+				1.30931
+				1.30931
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 12 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 116.95 0
+			}
+		}
+		Part "ada" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "ada" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				1.66534 0 1.67197
+				10.0145 -4.35418 -10.8111
+			}
+			Rotation {
+				0 0 0
+				0 -1430.66 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				1.66534 0 1.67197
+				-20.6456 6.56147 -10.8111
+			}
+			Rotation {
+				0 0 0
+				0 -1430.66 -20.3
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				1.66534 0 1.67197
+				-13.3319 -7.66865 -16.199
+				5.48079 13.6416 -10.8111
+			}
+			Rotation {
+				0 0 0
+				0 -715.332 -10.15
+				0 -1430.66 -20.3
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				1.66534 0 1.67197
+				16.7885 13.303 -16.199
+				-5.84567 -10.2844 -10.8111
+			}
+			Rotation {
+				0 0 0
+				-90.1215 -715.332 -4.055
+				0 -1430.66 -20.3
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+}
+Scene "rot-temple" {
+	SceneTime 15000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				0 2.00714 -8.2016
+				0 -1.20501 -11.76
+			}
+			Rotation {
+				0 86.3082 0
+				0 29.7658 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				0 2.45193 0
+				0 2.45193 0
+			}
+			Rotation {
+				63.6667 50.3333 3.63332
+				63.6667 50.3333 3.63332
+			}
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.9206 0 0.306208
+			}
+			Rotation {
+				0 -0.706202 609.271
+				875.439 -0.706202 609.271
+			}
+			Scale {
+				1 1 1
+				22.139 0.614178 35.1206
+			}
+			Alpha {
+				1.21667
+				0.11948
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.40085 0 0
+			}
+			Rotation {
+				0 55.8954 251.182
+				424.666 63.7425 251.182
+			}
+			Scale {
+				1 1 1
+				14.826 1 1
+			}
+			Alpha {
+				0.309132
+				0.0242133
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				3.42356 0 0
+			}
+			Rotation {
+				0 -38.6163 302.121
+				0 -52.5566 -358.391
+			}
+			Scale {
+				1 1 1
+				1 45.6305 1
+			}
+			Alpha {
+				0.246542
+				0.0719743
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.11221 0 0
+			}
+			Rotation {
+				0 53.916 727.878
+				0 53.916 198.104
+			}
+			Scale {
+				1 1 1
+				12.1317 1 1
+			}
+			Alpha {
+				0.903535
+				0.0388502
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.47928 0 0
+			}
+			Rotation {
+				4.35114 -48.6161 81.718
+				4.35114 -159.442 -236.205
+			}
+			Scale {
+				1 1 1
+				7.08512 34.629 1
+			}
+			Alpha {
+				0.37325
+				0.0897786
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.54796 0 0
+			}
+			Rotation {
+				46.6245 -2.01253 -211.96
+				46.6245 -2.01253 -635.642
+			}
+			Scale {
+				1 1 1
+				8.45257 8.83376 1
+			}
+			Alpha {
+				0.228785
+				0.0316539
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.19064 0 0
+			}
+			Rotation {
+				-54.93 0 -123.635
+				-54.93 0 -488.385
+			}
+			Scale {
+				1 1 1
+				0.771683 42.2194 1
+			}
+			Alpha {
+				0.325563
+				0.131214
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 11 {
+		CameraTrans 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				4.18577 0 0
+			}
+			Rotation {
+				2.56532 0 -134.593
+				2.56532 0 -547.064
+			}
+			Scale {
+				1 1 1
+				2.53138 3.69188 1
+			}
+			Alpha {
+				1.30931
+				0.235932
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 8 {
+		CameraTrans 2
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.98285
+			1
+		}
+		Part "no_name" {
+			Position {
+				75.8457 -36.9374 60.8421
+				-75.1042 -2.18706 19.2991
+				-77.7382 -1.58068 18.5742
+			}
+			Rotation {
+				-6.78673 -22.5553 0
+				23.6891 -9.44201 -6.85859
+				24.2209 -9.21318 -6.97827
+			}
+			Scale {
+				5.57083 2.42962 1.16915
+				20.5497 16.707 -31.1378
+				20.8111 16.9561 -31.7015
+			}
+			Alpha {
+				0.00651723
+				0.0130649
+				0.623652
+			}
+		}
+		Part "sm2" {
+		}
+		Part "sm" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+	}
+	Object 12 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0.991223 0.00765198 0
+			}
+			Rotation {
+				0 116.95 0
+				-17.874 42.3434 0
+			}
+		}
+		Part "ada" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "ada" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 8 {
+		CameraTrans 2
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.964765
+			1
+		}
+		Part "no_name" {
+			Position {
+				75.8457 -36.9374 60.8421
+				-121.634 -1.70875 7.65382
+				-126.748 -0.796526 6.27655
+			}
+			Rotation {
+				-6.78673 -22.5553 0
+				23.1283 -9.68329 -6.73239
+				24.2209 -9.21318 -6.97827
+			}
+			Scale {
+				5.57083 2.42962 1.16915
+				17.4041 25.2593 -30.5433
+				17.8363 26.0931 -31.7015
+			}
+			Alpha {
+				0.00651723
+				0.0704086
+				1.00025
+			}
+		}
+		Part "sm2" {
+		}
+		Part "sm" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+	}
+}
+Scene "down-temple" {
+	SceneTime 12000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 6
+		Time {
+			0
+			0.399736
+			0.501319
+			0.973615
+			0.985488
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				2.77465 24.8005 24.4093
+				1.66552 5.07994 25.609
+				1.42277 2.88099 35.0594
+				0.104845 -2.72043 29.1109
+				-0.0924544 -3.54864 28.1269
+				0 -3.13432 28.3512
+			}
+			Rotation {
+				0 0 0
+				0 14.7514 0
+				0 18.5002 0
+				0 35.9292 0
+				0 36.3674 0
+				0 36.9029 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				0 0 21.1602
+				0 0 21.2633
+				0 0 19.1669
+				0 0 1.44182
+				0 0 -1.22204
+				0 0 0
+			}
+			Rotation {
+				62.4881 171.641 17.6153
+				62.4881 171.641 17.6153
+				62.4881 171.641 17.6153
+				62.4881 171.641 9.13889
+				62.4881 171.641 17.6153
+				62.4881 171.641 9.13889
+			}
+		}
+	}
+	Object 12 {
+		CameraTrans 1
+		Visible 1
+		DataNum 8
+		Time {
+			0
+			0.401055
+			0.597625
+			0.799472
+			0.901055
+			0.935356
+			0.968338
+			1
+		}
+		Part "no_name" {
+			Position {
+				-0.719278 27.0807 -5.06683
+				-0.721033 27.48 -5.07919
+				-0.376999 20.8757 -0.470495
+				0.213425 9.41741 7.43505
+				0.584476 2.20383 12.4029
+				0.734427 -0.566174 14.4105
+				0.853637 -2.65169 16.0065
+				0.853637 -3.03048 16.0065
+			}
+			Rotation {
+				169.355 133.981 130.535
+				146.427 115.842 112.863
+				95.6882 75.7015 73.7544
+				43.5875 34.4833 33.5963
+				17.3669 13.7394 13.386
+				8.51319 6.73501 6.56178
+				0 0 0
+				0 0 0
+			}
+		}
+		Part "ada" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "ada" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0.301074 -6.33681 25.7438
+				0.301074 -6.33681 25.7438
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0.301074 -6.33681 6.23984
+				0.301074 -6.33681 6.23984
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				16.2876 -6.33681 14.1126
+				16.2876 -6.33681 14.1126
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-13.9457 -8.18673 36.0373
+				-13.9457 -8.18673 36.0373
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-13.9457 -6.33681 14.1126
+				-13.9457 -6.33681 14.1126
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				16.2876 -8.13349 34.6667
+				16.2876 -8.13349 34.6667
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.600671
+			1
+		}
+		Part "no_name" {
+			Position {
+				-15.3604 -1.1921 -24.2037
+				-10.1458 -0.476041 6.41912
+				-3.95731 20.7812 37.7135
+			}
+			Rotation {
+				0 0 0
+				-29.6971 -902.132 30.7348
+				54.3072 -1501.87 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.600671
+			1
+		}
+		Part "no_name" {
+			Position {
+				17.6612 -8.2597 -24.2037
+				12.1855 9.59068 6.41912
+				-2.50637 -3.78494 37.7135
+			}
+			Rotation {
+				0 0 0
+				65.437 -902.132 -60.8354
+				54.3072 -1501.87 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 8 {
+		CameraTrans 2
+		Visible 1
+		DataNum 6
+		Time {
+			0
+			0.101583
+			0.199208
+			0.399736
+			0.902375
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.57649 0 23.9111
+				-1.41634 0 21.4822
+				-1.32327 0 17.3473
+				-1.10737 0 9.51087
+				5.29304 18.6504 19.7872
+				2.52934 12.5441 24.8293
+			}
+			Rotation {
+				0 0 0
+				0 0 0
+				0 0 0
+				0 0 0
+				24.1384 -9.43071 0
+				28.8267 -11.2624 0
+			}
+			Scale {
+				1 1 1
+				1 1 1
+				1 1 1
+				1 1 1
+				4.93271 5.69848 0.895055
+				5.69654 6.61105 0.874672
+			}
+			Alpha {
+				0.300138
+				0.114661
+				0.0429451
+				0.0478747
+				0.0450706
+				0.0029531
+			}
+		}
+		Part "sm2" {
+		}
+		Part "sm" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.97651
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.6258 1.30567 -5.50668
+				-1.6258 1.30567 -5.50668
+				1.24084 2.70982 6.25437
+			}
+			Rotation {
+				-117.103 0 0
+				-117.103 0 0
+				-42.0306 -9.7102 9.45951
+			}
+			Scale {
+				0.00849533 1 -0.0092335
+				0.00849533 1 -0.0092335
+				0.99945 0.943316 0.800338
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.28782 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				0 0 0.149056
+			}
+			Rotation {
+				0 0 0
+				0 0 0
+				9.84651 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				5.0203 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.32131 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.7291 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.78185 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.16526 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				12.2627 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				11.8868 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.04338 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.13021 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.17356 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				16.6994 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.97651
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.6258 1.30567 -5.50668
+				-1.6258 1.30567 -5.50668
+				-0.409892 2.99725 6.25437
+			}
+			Rotation {
+				-117.103 0 0
+				-117.103 0 0
+				-42.0306 -9.7102 9.45951
+			}
+			Scale {
+				0.00849533 1 -0.0092335
+				0.00849533 1 -0.0092335
+				0.99945 0.943316 0.800338
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.28782 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				0 0 0.149056
+			}
+			Rotation {
+				0 0 0
+				0 0 0
+				9.84651 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				5.0203 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.32131 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.7291 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.78185 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.16526 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				12.2627 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				11.8868 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.04338 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.13021 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.17356 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.49712 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.97651
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.6258 1.30567 -5.50668
+				-1.6258 1.30567 -5.50668
+				-1.6258 2.57601 6.25437
+			}
+			Rotation {
+				-117.103 0 0
+				-117.103 0 0
+				-43.4183 -9.7102 9.45951
+			}
+			Scale {
+				0.00849533 1 -0.0092335
+				0.00849533 1 -0.0092335
+				0.99945 0.943316 0.800338
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.28782 0 0
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				0 0 0.149056
+			}
+			Rotation {
+				0 0 0
+				0 0 0
+				9.84651 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				5.0203 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.32131 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.7291 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.78185 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				6.16526 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				10.1275 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				12.2627 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				11.8868 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.04338 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				7.13021 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				4.17356 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				8.65998 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+}
+Scene "beam-temple" {
+	SceneTime 13124.5
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.199664
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-18.142 2.3576 -0.530817
+				-14.3377 8.56737 15.5991
+				-2.69611 -4.42078 38.5603
+			}
+			Rotation {
+				0 0 0
+				0 18.889 0
+				0 94.6037 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				-2.34002 -1.50532 16.5475
+				-1.8728 2.93334 13.2436
+				0 20.7253 0
+			}
+			Rotation {
+				62.4881 171.641 22.7789
+				62.4881 117.302 16.1587
+				62.4881 171.641 2.35042
+			}
+		}
+	}
+	Object 12 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0.853637 -3.03048 16.0065
+				0.853637 -3.03048 16.0065
+			}
+		}
+		Part "ada" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "ada" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "yane1" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "hari" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "kyane" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0.301074 -6.33681 25.7438
+				0.301074 -6.33681 25.7438
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				0.301074 -6.33681 6.23984
+				0.301074 -6.33681 6.23984
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				16.2876 -6.33681 14.1126
+				16.2876 -6.33681 14.1126
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-13.9457 -8.18673 36.0373
+				-13.9457 -8.18673 36.0373
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-13.9457 -6.33681 14.1126
+				-13.9457 -6.33681 14.1126
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 13 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				16.2876 -8.13349 34.6667
+				16.2876 -8.13349 34.6667
+			}
+			Rotation {
+				0 180.11 0
+				0 180.11 0
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.600671
+			1
+		}
+		Part "no_name" {
+			Position {
+				-15.3604 -1.1921 -24.2037
+				-10.1458 -0.476041 6.41912
+				-3.95731 20.7812 37.7135
+			}
+			Rotation {
+				0 0 0
+				-29.6971 -902.132 30.7348
+				54.3072 -1501.87 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 6
+		Time {
+			0
+			0.600671
+			0.798153
+			0.899736
+			0.951187
+			1
+		}
+		Part "no_name" {
+			Position {
+				17.6612 -8.17276 -24.2037
+				12.1855 9.59068 6.41912
+				6.07174 6.73938 21.8113
+				2.06269 2.27037 29.7507
+				-0.212009 -0.773819 33.8339
+				-2.50637 -4.13269 37.7135
+			}
+			Rotation {
+				0 0 0
+				65.437 -902.132 -60.8354
+				59.9329 -1198.72 -30.7502
+				57.1017 -1351.29 -15.2746
+				55.6677 -1428.56 -7.43632
+				54.3072 -1501.87 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				-4.65952 6.0813 0
+				0 9.20947 0
+				0 10.7939 0
+				-34.4131 12.297 -38.8113
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				19.258 0 0
+				0 0 0
+				0 0 0
+				-2.78884 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				64.333 0 0
+				0 0 0
+				0 0 0
+				-69.3197 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				13.6803 0 0
+				40.4842 0 89.3437
+				0 0 0
+				-61.0851 0 13.8944
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 0
+				0 0 0
+				0 0 0
+				0 0 0
+				-82.6385 0 0
+			}
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-14.3328 -4.44412 11.3454
+				-14.3328 -4.44412 11.3454
+			}
+			Rotation {
+				-82.8756 45.3568 147.805
+				-59.5121 45.3568 73.3545
+			}
+			Scale {
+				0.537045 -0.0119838 -0.0955186
+				2.62683 2.19932 2.01582
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.498681
+			1
+		}
+		Part "no_name" {
+			Position {
+				-16.6173 -7.79581 12.7075
+				-15.7248 -7.78223 18.9038
+				-16.6173 -7.76857 15.5453
+			}
+			Rotation {
+				-242.274 135.354 205.821
+				-240.641 164.248 281.706
+				-250.041 123.287 318.488
+			}
+			Scale {
+				0.153374 0.0110489 0.0264568
+				2.06682 9.73508 2.25595
+				3.49398 2.68738 2.24907
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				1.83828 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				5.04425 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.18423 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.18423 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.91069 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.14482 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.63715 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.22363 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.91069 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.14482 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.14482 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.14482 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.79246 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.51892 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.28479 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				-14.3328 -4.44412 6.34992
+				-14.3328 -4.44412 8.84764
+				-14.3328 -4.44412 11.3454
+			}
+			Rotation {
+				-105.787 41.9219 -75.7507
+				-82.6498 43.6393 34.0397
+				-59.5121 45.3568 73.3545
+			}
+			Scale {
+				0.537045 -0.0119838 -0.0955186
+				1.58194 1.83412 2.20394
+				2.62683 2.19932 2.01582
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				1.84314 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				5.0576 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.1953 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.19529 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.64677 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.23481 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.8025 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.52823 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.29348 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				-16.6755 -4.44412 8.92177
+				-16.6755 -4.44412 8.92177
+				-16.6755 -4.44412 8.92177
+			}
+			Rotation {
+				-105.787 41.9219 -75.7507
+				-82.6498 34.2063 34.0397
+				-59.5121 29.7275 73.3545
+			}
+			Scale {
+				0.537045 -0.0119838 -0.0955186
+				1.58194 1.83412 2.20394
+				2.62683 2.19932 2.01582
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				1.84314 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				5.0576 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.1953 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.19529 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.64677 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.23481 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.8025 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.52823 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.29348 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				-19.414 -5.37953 10.2702
+				-19.414 -5.36618 10.2702
+				-19.414 -5.37953 10.2702
+			}
+			Rotation {
+				-105.787 41.9219 -75.7507
+				-82.6498 34.2063 34.0397
+				-59.5121 29.7275 73.3545
+			}
+			Scale {
+				0.537045 -0.0119838 -0.0955186
+				1.58194 0.085063 2.20394
+				2.62683 1.30332 2.01582
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				1.84314 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				5.0576 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.1953 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.19529 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.64677 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.23481 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.8025 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.52823 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.29348 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 15 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.5
+			1
+		}
+		Part "no_name" {
+			Position {
+				-20.4947 -5.37953 12.3203
+				-17.4667 -5.16471 15.0783
+				-19.414 -5.37953 12.9787
+			}
+			Rotation {
+				-105.787 41.9219 -75.7507
+				-82.6498 34.2063 34.0397
+				-85.0667 66.2715 50.7635
+			}
+			Scale {
+				0.537045 -0.0119838 -0.0955186
+				1.58194 2.15306 2.20394
+				2.62683 -0.162858 2.01582
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				1.84314 0 0
+				3.68628 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				5.0576 0 0
+				10.1152 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.1953 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.19529 0 0
+				8.39059 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.64677 0 0
+				7.29354 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.23481 0 0
+				8.46961 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.92103 0 0
+				7.84206 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				4.15578 0 0
+				8.31157 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.8025 0 0
+				7.60499 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.52823 0 0
+				7.05646 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				3.29348 0 0
+				6.58696 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 8 {
+		CameraTrans 2
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.930079
+			1
+		}
+		Part "no_name" {
+			Position {
+				-1.57649 0 8.12111
+				2.24226 11.667 8.92923
+				2.52934 12.5441 8.98998
+			}
+			Rotation {
+				0 0 0
+				6.95138 -5.75867 5.25923
+				7.47397 -6.19159 5.6546
+			}
+			Scale {
+				1 1 1
+				5.36815 6.21872 0.883435
+				5.69654 6.61105 0.874672
+			}
+			Alpha {
+				0.0333333
+				0.0608821
+				0
+			}
+		}
+		Part "sm2" {
+		}
+		Part "sm" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+		Part "sm2" {
+		}
+	}
+}
+Scene "temple-end" {
+	SceneTime 15600
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.100671
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-2.69611 -4.42078 38.5603
+				-2.43871 -0.820823 42.3104
+				-2.43871 -0.820823 42.3104
+			}
+			Rotation {
+				0 94.6037 0
+				0 0 0
+				0 0 0
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				0 20.7253 0
+				0 20.7253 0
+				0 20.7253 0
+			}
+		}
+	}
+	Object 14 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-2.50637 -4.13269 37.7135
+				-2.50637 -4.13269 37.7135
+			}
+			Rotation {
+				54.3072 -1501.87 0
+				54.3072 -1501.87 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+			Rotation {
+				-34.4131 12.297 -38.8113
+				-34.4131 12.297 -38.8113
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				-2.78884 0 0
+				-2.78884 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				-69.3197 0 0
+				-69.3197 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				-61.0851 0 13.8944
+				-61.0851 0 13.8944
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				-82.6385 0 0
+				-82.6385 0 0
+			}
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 16 {
+		CameraTrans 2
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.100671
+			1
+		}
+		Part "pt2" {
+			Position {
+				0 -64.5059 15.764
+				0 -15.5164 21.2931
+				-0.273276 7.20847 19.6385
+			}
+			Alpha {
+				0
+				0
+				1
+			}
+		}
+		Part "pt1" {
+			Position {
+				0 0 0
+				0 0 0
+				0.248696 13.6488 -23.3941
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				4.62084 -4.30702 -3.7473
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				-4.77189 5.29777 2.1492
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				1.42815 6.30936 0.0958288
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				0.698114 -0.0160367 -0.455085
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				5.0126 2.74477 -2.80458
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				-1.67866 1.13833 1.27233
+			}
+		}
+		Part "no_name" {
+			Position {
+				0 0 0
+				0 0 0
+				0.35827 4.69025 0.326039
+			}
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt1" {
+		}
+		Part "pt2" {
+		}
+		Part "pt2" {
+		}
+		Part "pt2" {
+		}
+	}
+	Object 17 {
+		CameraTrans 1
+		Visible 1
+		DataNum 7
+		Time {
+			0
+			0.20302
+			0.501678
+			0.699664
+			0.800336
+			0.902685
+			1
+		}
+		Part "no_name" {
+			Position {
+				12.925 -58.5236 7.79482
+				7.93437 -36.4391 17.4445
+				2.60623 -12.861 27.7467
+				0.0517395 -1.5569 32.686
+				-0.948218 2.8681 34.6195
+				-1.07313 1.73318 39.0429
+				-0.948218 2.8681 34.6195
+			}
+			Rotation {
+				0 -12.2137 0
+				-15.5986 -78.9255 0.923674
+				-38.5453 -177.063 2.28247
+				-53.7572 -242.121 3.18324
+				-61.492 -275.201 3.64126
+				-61.492 -539.615 3.64126
+				-61.492 -791.025 3.64126
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tp1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tp1" {
+		}
+		Part "tr1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tr1" {
+		}
+		Part "tr1" {
+		}
+		Part "tr1" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tube" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tube" {
+		}
+		Part "tube" {
+		}
+		Part "tube" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "waka" {
+		}
+		Part "wa" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "wa" {
+		}
+		Part "wa" {
+		}
+		Part "wa" {
+		}
+		Part "waka" {
+		}
+		Part "waka" {
+		}
+		Part "waka" {
+		}
+	}
+}
+Eof

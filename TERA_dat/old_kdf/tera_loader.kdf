@@ -1,0 +1,277 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	0 ".\mdl\tera_load.kmd"
+	1 ".\mdl\systemk.kmd"
+	2 ".\mdl\grnwa.kmd"
+}
+MUSIC {
+	256 ""
+}
+Scene "scene_name" {
+	SceneTrack ""
+	SceneTime 1000
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				0 0 5.92953
+				0 0 5.92953
+			}
+		}
+		Part "camera_lookat" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 1.49012e-008
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -57.4184
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -34.0102
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -32.7203
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0.349965
+				0 0 -34.504
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -35.0431
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -35.6459
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -35.9163
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				0 0 -35.1651
+			}
+		}
+		Part "ldita" {
+		}
+	}
+	Object 1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 10
+		Time {
+			0
+			0.0989933
+			0.201342
+			0.300336
+			0.401007
+			0.5
+			0.598993
+			0.697987
+			0.798658
+			1
+		}
+		Part "no_name" {
+			Position {
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+				0 0 0.607869
+			}
+			Scale {
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+				0.29256 0.291795 1
+			}
+			Alpha {
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+				0.460743
+			}
+		}
+		Part "no_name" {
+			Alpha {
+				0
+				0.243993
+				0.0482045
+				0.407846
+				0.166381
+				0.67415
+				0.268664
+				0.66587
+				0.348913
+				1
+			}
+		}
+	}
+	Object 2 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "rdcir" {
+			Position {
+				1.79044 0.901166 0.966803
+				2.24482 0.901166 0.966803
+			}
+			Rotation {
+				90.2 0 0
+				90.2 -321.893 0
+			}
+			Scale {
+				0.502295 1 0.501784
+				0.502295 1 0.501784
+			}
+			Alpha {
+				0.27981
+				0.27981
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 2 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "rdcir" {
+			Position {
+				-1.96602 -1.20492 1.20561
+				-1.96602 -1.20492 1.20561
+			}
+			Rotation {
+				90.2 0 0
+				90.2 -218.692 0
+			}
+			Scale {
+				0.350965 2.03864 0.349886
+				0.253453 0.558559 0.253192
+			}
+			Alpha {
+				0.838651
+				0.450104
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 2 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "rdcir" {
+			Position {
+				0 0.256519 0.958349
+				0 0.256519 0.958349
+			}
+			Rotation {
+				90.2 0 0
+				90.2 111.858 0
+			}
+			Alpha {
+				0.417223
+				0.417223
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+}
+Eof

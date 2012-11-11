@@ -1,0 +1,320 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+LAYOUTVIEW MENU 
+BEGIN
+    POPUP "File(&File)"
+    BEGIN
+        MENUITEM "New Layout (&N)\tCtrl + N",   ID_FILE_NEW_LAYOUT
+        MENUITEM "Open Layout (&O)...\tCtrl + O", ID_FILE_OPEN_LAYOUT
+        MENUITEM "Save Project (&S)\tCtrl + S", ID_FILE_SAVE_OW
+        MENUITEM "Save Project As (&A)...\tCtrl + Shift + S", ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Export(&E)...\tCtrl+E",       ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_FILE_EXIT
+    END
+    POPUP "Edit(&Edit)"
+    BEGIN
+        MENUITEM "Undo (&U)\tCtrl + Z",         ID_EDIT_UNDO
+        MENUITEM "Redo (&R)\tCtrl + Y",         ID_EDIT_REDO
+    END
+    POPUP "Mode(&Mode)"
+    BEGIN
+        MENUITEM "Layouter",                    ID_MODE_LAYOUTER
+        MENUITEM "Timeliner",                   ID_MODE_TIMELINER
+    END
+    POPUP "Frame(&F)"
+    BEGIN
+        MENUITEM "1.00f",                       ID_FRAME_100
+        MENUITEM "0.75f",                       ID_FRAME_075
+        MENUITEM "0.50f",                       ID_FRAME_050
+        MENUITEM "0.25f",                       ID_FRAME_025
+        MENUITEM "0.00f",                       ID_FRAME_000
+    END
+END
+
+SCENELIST_POPUP MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Add",                         110
+        MENUITEM "Copy",                        ID_SCENELIST_COPY
+        MENUITEM "Delete",                      ID_SCENELIST_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "MOVE_UP",                     ID_SCENELIST_MOVEUP
+        MENUITEM "MOVE_DOWN",                   ID_SCENELIST_MOVEDOWN
+    END
+END
+
+SCENEOBJECTLIST_POPUP MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Copy",                        109
+        MENUITEM "Delete",                      ID_SCENEOBJ_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "MOVE UP",                     113
+        MENUITEM "MOVE DOWN",                   ID_SCENEOBJ_MOVEDOWN
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle no_cameratrans/cameratrans/DOF", ID_FILE_TOGGLECAMERATRANS
+        MENUITEM SEPARATOR
+        MENUITEM "Change Interpolate Method",   ID_SCENEOBJ_INTERPOLATE
+        MENUITEM SEPARATOR
+    END
+END
+
+OBJECTLIST_POPUP MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load",                        ID_OBJLIST_ADD
+        MENUITEM "Delete",                      ID_OBJLIST_DELETE
+    END
+END
+
+SCENELIST_TIMELINER_POPUP MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Copy",                        ID_SCENELIST_COPY
+        MENUITEM "MOVE_UP",                     ID_SCENELIST_MOVEUP
+        MENUITEM "MOVE_DOWN",                   ID_SCENELIST_MOVEDOWN
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+MAINACCEL ACCELERATORS 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FILE_EXPORT,         VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW_LAYOUT,     VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN_LAYOUT,    VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_AS,        VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_OW,        VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_CLONE_DIALOG DIALOGEX 0, 0, 268, 219
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_TOOLWINDOW
+CAPTION "Clone Settings"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,211,74,50,39
+    PUSHBUTTON      "キャンセル",IDCANCEL,211,175,50,40
+    EDITTEXT        IDC_CLONE_PRIMITIVE_ID,17,44,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MATERIAL_ID,17,90,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_NAME,17,134,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MODE,17,178,66,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CLONE_MASTER_NAME,116,48,66,13,ES_AUTOHSCROLL
+    GROUPBOX        "Clone Name",IDC_STATIC,7,120,92,37
+    GROUPBOX        "Clone Mode",IDC_STATIC,7,164,92,37
+    GROUPBOX        "Material ID",IDC_STATIC,7,76,92,37
+    GROUPBOX        "Primitive ID",IDC_STATIC,7,31,92,37
+    GROUPBOX        "Master Name(従属先)",IDC_STATIC,106,31,92,37
+    LTEXT           "(Clone Mode == 0) ? Primitive ID : CloneMode",IDC_STATIC,101,178,91,27
+END
+
+ID_TIME_WINDOW DIALOGEX 0, 0, 162, 148
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TIME_CURRENT,87,104,67,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Current:",IDC_STATIC,60,108,28,8,NOT WS_VISIBLE
+    LTEXT           "Length:",IDC_STATIC,35,48,26,8
+    LTEXT           "Start:",IDC_STATIC,60,130,20,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_TIME_START,87,127,67,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_TIME_END,63,44,67,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SET TIME",IDC_BUTTON1,83,60,47,16
+    LTEXT           "msec",IDC_STATIC,133,49,21,9
+END
+
+ID_SOUND_WINDOW DIALOGEX 0, 0, 188, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Load",IDC_SOUND_LOAD,113,16,32,19
+    EDITTEXT        IDC_SOUND_FILENAME,11,17,100,17,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Fille name",IDC_STATIC,0,7,34,8
+    LTEXT           "Type: ",IDC_SOUND_TYPE,0,39,100,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_SOUND_KSTRACK,11,134,100,17,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "Play Track",IDC_STATIC,1,123,34,8,NOT WS_VISIBLE
+    PUSHBUTTON      "Export Settings",IDC_EXPORT_SCENETIIME,113,89,41,34,BS_MULTILINE | NOT WS_VISIBLE
+    CONTROL         "KS1_MODE",1063,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,73,36,51,10
+    CONTROL         "",IDC_SOUND_VOLUME_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,40,53,86,15
+    GROUPBOX        "Volume",IDC_STATIC,26,45,114,40
+    LTEXT           "0.0f",IDC_STATIC,30,56,14,8
+    LTEXT           "2.0f",IDC_STATIC,124,56,14,8
+    CONTROL         "Mute",IDC_SOUND_MUTE_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,41,71,32,10
+    EDITTEXT        IDC_SOUND_VOLUME_EDIT,75,66,27,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+ID_SYNTH_WINDOW DIALOGEX 0, 0, 188, 271
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_KS_TRACK_CALC,6,64,117,14,ES_AUTOHSCROLL | ES_NOHIDESEL | ES_WANTRETURN
+    GROUPBOX        "Track Calc",IDC_STATIC,0,53,181,57
+    PUSHBUTTON      "SET TRC",IDC_KS_DOCALC_AND_SET,126,61,28,18,BS_MULTILINE
+    EDITTEXT        IDC_KS_ANSWER,6,85,65,15,ES_AUTOHSCROLL | ES_NOHIDESEL | ES_WANTRETURN
+    LTEXT           "sec",IDC_STATIC,76,91,20,10
+    LTEXT           "Length:",IDC_STATIC,0,209,26,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_TIME_SCENE,28,213,67,14,ES_AUTOHSCROLL | ES_NOHIDESEL | ES_WANTRETURN | NOT WS_VISIBLE
+    PUSHBUTTON      "SET TIME",IDC_TIME_SET,103,84,47,16
+    GROUPBOX        "Scene Time",IDC_STATIC,0,117,181,59
+    LTEXT           "sc time sum :",IDC_STATIC,1,144,43,8
+    LTEXT           "0.0",IDC_TIME_TOTAL,47,144,46,8,0,WS_EX_RIGHT
+    LTEXT           "sec",IDC_STATIC,100,144,21,9
+    CONTROL         "KS->sec",IDC_KS_KSTOSEC,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,129,244,43,10
+    CONTROL         "sec->KS",IDC_KS_SECTOKS,"Button",BS_AUTORADIOBUTTON | NOT WS_VISIBLE,129,254,43,10
+    EDITTEXT        IDC_KS_TRACKINFO,1,17,147,16,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "KSynth Track Info:",IDC_STATIC,0,9,70,8
+    PUSHBUTTON      "Load .h file",IDC_KS_LOAD_H,98,36,54,17,NOT WS_VISIBLE
+    LTEXT           "music   total:",IDC_STATIC,1,155,43,8
+    LTEXT           "0.0",IDC_TIME_TOTAL_MUSIC,47,155,46,8,0,WS_EX_RIGHT
+    LTEXT           "sec",IDC_STATIC,99,154,21,9
+    PUSHBUTTON      "SET THIS VALUE To SceneTime",IDC_TIME_SET_ANSWER,59,240,65,24,BS_MULTILINE
+    LTEXT           "time left      :",IDC_STATIC,1,163,53,8
+    LTEXT           "0.0",IDC_TIME_LEFT,47,163,46,8,0,WS_EX_RIGHT
+    LTEXT           "sec",IDC_STATIC,99,163,21,9
+    LTEXT           "sec",IDC_STATIC,100,136,21,9,NOT WS_VISIBLE
+    LTEXT           "scene time  :",IDC_STATIC,1,135,43,8
+    LTEXT           "0.0",IDC_TIME_CURRENT,47,136,46,8,0,WS_EX_RIGHT
+    PUSHBUTTON      "SET TIME",IDC_TIME_SET2,123,215,47,16,NOT WS_VISIBLE
+    LTEXT           "scene track:",IDC_STATIC,1,124,43,8
+    EDITTEXT        IDC_TIME_SCENE_TRACK,47,125,93,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    ID_CLONE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 215
+    END
+
+    ID_TIME_WINDOW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    ID_SOUND_WINDOW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    ID_SYNTH_WINDOW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 181
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon.ico"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,2 @@
+ogg_static, vorbis_static, vorbisfile_static
+Copyright (C) 1994-2002 XIPHOPHORUS Company http://www.xiph.org/

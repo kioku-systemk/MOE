@@ -1,0 +1,343 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	0 ".\mdl\laser.kmd"
+	1 ".\mdl\enban.kmd"
+}
+Scene "scene_name" {
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-3.38886 -0.24356 -0.652802
+				3.81978 -1.59598 4.47124
+			}
+		}
+		Part "camera_lookat" {
+		}
+	}
+	Object 1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "higene" {
+		}
+		Part "hige" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "hige" {
+		}
+		Part "hige" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "higene" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "dia" {
+		}
+		Part "dia" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-3.35066 0.208206 -0.221792
+				-4.48601 0.853947 -1.07101
+			}
+			Rotation {
+				-9.61656 15.5536 68.8816
+				-4.65688 13.8051 67.4969
+			}
+			Scale {
+				0.0060177 0.069152 0.00732059
+				0.267763 1 0.215989
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				-2.44746 3.55481 -2.76746
+				-2.44746 3.79213 -2.26406
+			}
+			Rotation {
+				0 0 46.8095
+				0 0 46.8095
+			}
+			Scale {
+				0.0060177 0.069152 0.00732059
+				0.267763 1 0.215989
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 0 0
+				2.2365 0 0
+			}
+		}
+		Part "no_name" {
+		}
+	}
+}
+Eof

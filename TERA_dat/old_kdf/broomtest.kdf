@@ -1,0 +1,72 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	0 ".\mdl\broom.kmd"
+}
+Scene "scene_name" {
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 4
+		Time {
+			0
+			0.401007
+			0.798658
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-1.99499 -1.22702 2.93599
+				-0.0366121 2.35386 3.60735
+				3.30663 -0.979587 -0.438564
+				-1.09556 -0.651871 -2.90799
+			}
+			Rotation {
+				-2.16732 15.5014 0
+				0 15.5014 0
+				0 15.5014 0
+				0 15.5014 0
+			}
+		}
+		Part "camera_lookat" {
+			Rotation {
+				33.5746 19.9707 2.98384
+				33.5746 19.9707 3.28384
+				33.5746 19.9707 2.31718
+				33.5746 19.9707 2.88384
+			}
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "box1" {
+		}
+		Part "box2" {
+		}
+		Part "box3" {
+		}
+	}
+}
+Eof

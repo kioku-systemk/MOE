@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CLibrary">
+      <UniqueIdentifier>{b5b18174-ac85-4f6b-82fb-2a406b316962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase">
+      <UniqueIdentifier>{b0adb7b9-d884-46dd-ad7e-d7b4a7a0646c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase\CWindow">
+      <UniqueIdentifier>{1e59b412-06e0-4119-a0e8-f17c9f2bde6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase\CWindow\CWindowGL">
+      <UniqueIdentifier>{c3f298d9-572f-4e3f-ac8b-efeb946f5688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\Component">
+      <UniqueIdentifier>{e6a5c947-6245-40b1-a6f5-85dfe3386407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a44b537d-eb09-4267-8fe8-044700d5b6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib">
+      <UniqueIdentifier>{c5d5fcf7-9c55-4302-bbd2-9b88d9323ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kmath">
+      <UniqueIdentifier>{14791da5-20e6-475e-b1a7-dfdc4d546a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kModel">
+      <UniqueIdentifier>{0e8af1ff-8620-495e-ade2-2f03c5921b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kModel\KModelEdit">
+      <UniqueIdentifier>{d3e55b29-6896-4b62-ba0d-8d7e7f7d0764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kObject">
+      <UniqueIdentifier>{05f2cb3d-51c7-4a1c-bfb8-631ae82b5607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kTexture">
+      <UniqueIdentifier>{505bf677-5a12-4d82-b996-757d91ca9902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{5cf54b37-7235-4779-9959-2e8173de8335}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CLibrary\CWindowBase.cpp">
+      <Filter>CLibrary\CWindowBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindow.cpp">
+      <Filter>CLibrary\CWindowBase\CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindowGL.cpp">
+      <Filter>CLibrary\CWindowBase\CWindow\CWindowGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CListView.cpp">
+      <Filter>CLibrary\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CTreeView.cpp">
+      <Filter>CLibrary\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CTrace.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="modeler window.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupCode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\kmath.cpp">
+      <Filter>kLib\kmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\KModel.cpp">
+      <Filter>kLib\kModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\KModelEdit.cpp">
+      <Filter>kLib\kModel\KModelEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\KObject.cpp">
+      <Filter>kLib\kObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\kTexture.cpp">
+      <Filter>kLib\kTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\kTextureEdit.cpp">
+      <Filter>kLib\kTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CLibrary\CWindowBase.h">
+      <Filter>CLibrary\CWindowBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindow.h">
+      <Filter>CLibrary\CWindowBase\CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindowGL.h">
+      <Filter>CLibrary\CWindowBase\CWindow\CWindowGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CListView.h">
+      <Filter>CLibrary\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CTreeView.h">
+      <Filter>CLibrary\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CTrace.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperation.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="modeler window.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupCode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="klib\Vector.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\kmath.h">
+      <Filter>kLib\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\KModel.h">
+      <Filter>kLib\kModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\KModelEdit.h">
+      <Filter>kLib\kModel\KModelEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\KObject.h">
+      <Filter>kLib\kObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\ktexture.h">
+      <Filter>kLib\kTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\kTextureEdit.h">
+      <Filter>kLib\kTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="resrc1.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="marble.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur" />
+    <None Include="icon1.ico" />
+    <None Include="VTune\marble.vpj" />
+  </ItemGroup>
+</Project>

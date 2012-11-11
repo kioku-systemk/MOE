@@ -1,0 +1,351 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	20 ".\mdl\white.kmd"
+	70 ".\mdl\strobj6.kmd"
+	71 ".\mdl\strobj7.kmd"
+	72 ".\mdl\strobj8.kmd"
+}
+Scene "scene_name" {
+	SceneTrack ""
+	SceneTime 0
+	Object -1 {
+		CameraTrans 1
+		Interpolate 0
+		Visible 1
+		DataNum 8
+		Time {
+			0
+			0.217678
+			0.299472
+			0.401055
+			0.501319
+			0.671504
+			0.811346
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-5.82864 -0.995156 -8.222
+				-5.64588 -1.58369 -9.06221
+				-2.27606 -1.65332 -8.20153
+				-2.58163 -1.202 -8.62735
+				-0.0804688 2.16272 -7.95858
+				2.50562 -0.688183 -6.55918
+				7.55491 -1.12983 -5.05693
+				4.89558 -0.995156 -2.17255
+			}
+		}
+		Part "camera_lookat" {
+			Position {
+				-5.93736 -2.33235 -14.5201
+				-2.76281 -1.84282 -12.7305
+				-3.01335 -1.70764 -12.2363
+				-0.46549 -1.43997 -11.2577
+				0.47835 -1.29109 -10.7135
+				2.34174 -0.251628 -9.6618
+				4.35821 -0.0807549 -8.53906
+				8.15658 -0.107265 -6.38567
+			}
+		}
+	}
+	Object 20 {
+		CameraTrans 2
+		Interpolate 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+	}
+	Object 70 {
+		CameraTrans 1
+		Interpolate 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "this" {
+			Position {
+				-7.9166 -2.89209 -13.6326
+				-7.9166 -2.89209 -13.6326
+			}
+			Rotation {
+				180.878 44.9126 -46.8753
+				180.878 44.9126 -46.8753
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -15.888 0
+				0 -15.888 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -12.1208 9.84237
+				0 -12.1208 9.84237
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -17.4168 6.70988
+				0 -17.4168 6.70988
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -29.656 17.6808
+				0 -29.656 17.6808
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 44.689 11.9259
+				0 44.689 11.9259
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 5.03286 9.87856
+				0 5.03286 9.87856
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 19.2616 9.89665
+				0 19.2616 9.89665
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -4.29493 11.944
+				0 -4.29493 11.944
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -62.5932 -19.7788
+				0 -62.5932 -19.7788
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -13.3589 -13.5319
+				0 -13.3589 -13.5319
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -39.9722 2.57181
+				0 -39.9722 2.57181
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 88.9956 -29.7008
+				0 88.9956 -29.7008
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 18.0757 -11.991
+				0 18.0757 -11.991
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 28.0095 -9.87494
+				0 28.0095 -9.87494
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -40.7623 0
+				0 -40.7623 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -62.5537 0
+				0 -62.5537 0
+			}
+		}
+	}
+	Object 71 {
+		CameraTrans 1
+		Interpolate 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "this" {
+			Position {
+				0.825146 0.312508 -10.3661
+				0.825146 0.312508 -10.3661
+			}
+			Rotation {
+				160.291 0 0
+				160.291 0 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 31.5152 6.45493
+				0 31.5152 6.45493
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 11.577 7.3225
+				0 11.577 7.3225
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 18.8856 6.71253
+				0 18.8856 6.71253
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -3.42635 11.8706
+				0 -3.42635 11.8706
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -13.4949 6.5408
+				0 -13.4949 6.5408
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -27.0246 -1.0393
+				0 -27.0246 -1.0393
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -39.0459 5.07216
+				0 -39.0459 5.07216
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -41.1859 -19.5454
+				0 -41.1859 -19.5454
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 16.5118 -20.2797
+				0 16.5118 -20.2797
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 41.607 -14.3015
+				0 41.607 -14.3015
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 41.6186 16.3327
+				0 41.6186 16.3327
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 9.6824 -55.3555
+				0 9.6824 -55.3555
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -15.4127 0
+				0 -15.4127 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -29.6089 0
+				0 -29.6089 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -39.4437 0
+				0 -39.4437 0
+			}
+		}
+		Part "no_name" {
+			Rotation {
+				0 -32.3805 0
+				0 -32.3805 0
+			}
+		}
+	}
+	Object 72 {
+		CameraTrans 1
+		Interpolate 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "this" {
+			Position {
+				-7.963 -2.84111 0
+				0 0 0
+			}
+			Rotation {
+				180.776 0 0
+				180.776 0 0
+			}
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+}
+Eof

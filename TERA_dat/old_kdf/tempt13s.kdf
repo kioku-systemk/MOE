@@ -1,0 +1,38 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	15 ".\mdl\laser.kmd"
+	16 ".\mdl\particle.kmd"
+	17 ".\mdl\tukic.kmd"
+	10 ".\mdl\white.kmd"
+	39 ".\mdl\stars.kmd"
+	40 ".\mdl\inverter.kmd"
+	54 ".\mdl\ishigaki.kmd"
+	55 ".\mdl\nsbox.kmd"
+	60 ".\mdl\thandb.kmd"
+	61 ".\mdl\thandr.kmd"
+	62 ".\mdl\thandg.kmd"
+}
+MUSIC {
+	Volume 1.078
+	 ".\ddh1.ksf"
+}
+Scene "tuki-star" {
+	Object -1 {
+		CameraTrans 1
+		Interpolate 0
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "camera_pos" {
+		}
+		Part "camera_lookat" {
+		}
+	}
+}
+Eof

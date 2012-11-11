@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CLibrary">
+      <UniqueIdentifier>{102f4463-9a30-4f7d-86c4-666f9fd8c83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase">
+      <UniqueIdentifier>{44bac70a-1d9f-43a8-9e18-4ae91c61cdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase\CWindow">
+      <UniqueIdentifier>{1963ad26-6aca-4746-85a9-a03d1ae7035e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CWindowBase\CWindow\CWindowGL">
+      <UniqueIdentifier>{73c7bce4-33a4-4e2b-8805-c3f0b216bda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\Component">
+      <UniqueIdentifier>{15a6ebca-9fff-4393-ab54-18a483223bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLibrary\CSound">
+      <UniqueIdentifier>{90833f99-b5e7-4c28-b9ec-dc61027af15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2498713e-ca18-44f5-8f90-c3e12345307d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib">
+      <UniqueIdentifier>{8a46ae58-9d9d-4c19-b107-1ce6af946879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kmath">
+      <UniqueIdentifier>{11d451b3-d3e8-42d7-b93b-883cd7bf8d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kModel">
+      <UniqueIdentifier>{56a9f2ec-564d-46d2-a00f-abf07398a873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kModel\KModelEdit">
+      <UniqueIdentifier>{7535e321-9fa9-4a1b-9624-114db0a95dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\kObject">
+      <UniqueIdentifier>{8d0f069a-1382-4552-82f2-6b159b874910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kLib\KCtrl">
+      <UniqueIdentifier>{a56916a4-3502-4fdf-9abb-464ece136f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{379d03bc-7b0d-4be0-8196-8cfd14d66037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CLibrary\CTrace.cpp">
+      <Filter>CLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindowBase.cpp">
+      <Filter>CLibrary\CWindowBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindow.cpp">
+      <Filter>CLibrary\CWindowBase\CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CWindowGL.cpp">
+      <Filter>CLibrary\CWindowBase\CWindow\CWindowGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CListView.cpp">
+      <Filter>CLibrary\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CTreeView.cpp">
+      <Filter>CLibrary\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CSound.cpp">
+      <Filter>CLibrary\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\CSoundLoader.cpp">
+      <Filter>CLibrary\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\OggVorbisLoader.cpp">
+      <Filter>CLibrary\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CLibrary\WaveLoader.cpp">
+      <Filter>CLibrary\CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LayouterWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutFileManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupCode.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sync.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CDemo.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\glScreen.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\ks2lib.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\kTexture.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\kTextureEdit.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MQO_File.cpp">
+      <Filter>kLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\kfpu.cpp">
+      <Filter>kLib\kmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\kmath.cpp">
+      <Filter>kLib\kmath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\KModel.cpp">
+      <Filter>kLib\kModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\KModelEdit.cpp">
+      <Filter>kLib\kModel\KModelEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kLib\KObject.cpp">
+      <Filter>kLib\kObject</Filter>
+    </ClCompile>
+    <ClCompile Include="kCtrl\commoncontrol.cpp">
+      <Filter>kLib\KCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="kCtrl\TimelineView.cpp">
+      <Filter>kLib\KCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\klib\glImage.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CLibrary\CTrace.h">
+      <Filter>CLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindowBase.h">
+      <Filter>CLibrary\CWindowBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindow.h">
+      <Filter>CLibrary\CWindowBase\CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CWindowGL.h">
+      <Filter>CLibrary\CWindowBase\CWindow\CWindowGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CListView.h">
+      <Filter>CLibrary\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CTreeView.h">
+      <Filter>CLibrary\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CSound.h">
+      <Filter>CLibrary\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\CSoundLoader.h">
+      <Filter>CLibrary\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\OggVorbisLoader.h">
+      <Filter>CLibrary\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CLibrary\WaveLoader.h">
+      <Filter>CLibrary\CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="LayouterWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutFileManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectList.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="resrc1.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneList.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectList.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupCode.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_model.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CDemo.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\glScreen.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\ks2lib.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\ktexture.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\kTextureEdit.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MQO_File.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\Vector.h">
+      <Filter>kLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\kfpu.h">
+      <Filter>kLib\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\kmath.h">
+      <Filter>kLib\kmath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\KModel.h">
+      <Filter>kLib\kModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\KModelEdit.h">
+      <Filter>kLib\kModel\KModelEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kLib\KObject.h">
+      <Filter>kLib\kObject</Filter>
+    </ClInclude>
+    <ClInclude Include="kCtrl\CommonControl.h">
+      <Filter>kLib\KCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="kCtrl\TimelineView.h">
+      <Filter>kLib\KCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\klib\glImage.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.ico">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="oxygenz.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dxguid.lib" />
+  </ItemGroup>
+</Project>

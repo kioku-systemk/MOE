@@ -1,0 +1,178 @@
+KScene Demo File
+Format Text Ver 1.0
+copyright kioku@System K
+
+KMD {
+	0 ".\rdcir.kmd"
+	1 ".\laser.kmd"
+	2 ".\bokogrand.kmd"
+}
+MUSIC {
+}
+Scene "scene_name" {
+	SceneTrack ""
+	SceneTime 0
+	Object -1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 3
+		Time {
+			0
+			0.441275
+			1
+		}
+		Part "camera_pos" {
+			Position {
+				-0.207027 0.939387 6.17998
+				-4.03244 0.524859 0.219461
+				0.97775 0 -4.97575
+			}
+		}
+		Part "camera_lookat" {
+		}
+	}
+	Object 2 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+			Position {
+				13.1221 -1.94295 -16.1778
+				13.1221 -1.94295 -16.1778
+			}
+		}
+		Part "sb" {
+		}
+		Part "sub" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sub" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "sb" {
+		}
+		Part "tou" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "tou" {
+		}
+	}
+	Object 0 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "crd" {
+			Rotation {
+				0 0 0
+				0 -404.582 0
+			}
+		}
+		Part "rdcir" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "rdcir" {
+		}
+		Part "bdrs" {
+		}
+		Part "bdcir" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "bdcir" {
+		}
+		Part "bdcir" {
+		}
+		Part "bdrs" {
+		}
+		Part "bdrs" {
+		}
+	}
+	Object 1 {
+		CameraTrans 1
+		Visible 1
+		DataNum 2
+		Time {
+			0
+			1
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+		Part "no_name" {
+		}
+	}
+}
+Eof
