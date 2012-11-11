@@ -1,0 +1,99 @@
+■KTGヘルプ
+09.18
+
+■文法
+1.関数呼び出しはC言語と同じ.
+2.関数は, 大文字・小文字を区別しない.
+
+■設定
+texturesize(int wid, int hei);
+テクスチャのサイズを指定。２の累乗で無ければならず，また，どの関数よりも先にかかれていなければならない。
+
+■基本図形など
+circle(int x, int y, int radius);
+	//radiusを直径とした円を, x,yを原点として描画
+ellipse(int x, int y, int rad_x, int rad_y);
+	//x,yを原点としてrad_x, rad_yまでの矩形内に収まる楕円を描画
+text(int x, int y, int height, int bold, int italic, int center_x, int center_y, char* text);
+	//x,yにheightの高さの文字列を描画. bold/italic/centerは0以下で無効に, それ以外で有効に.centerを有効にした場合, xは中心からのオフセット. \\, \", \t. \n使用可能.
+check(int dx, int dy, UCHAR r0, g0, b0, a0, UCHAR r1, g1, b1, a1);
+	//dxとdyはタイル分割数を, rgba0とrgba1はタイルを埋める色を指定する.
+rectangle(int x, int y, int width, int height);
+or
+rect(int x, int y, int width, int height);
+	//width, heightの大きさの長方形を, x,yを原点として描画します.
+roundrect(int x, int y, int width, int height, int r_w, int r_h);
+	//幅r_w, 高さr_hの楕円の弧で角が丸められます.
+
+■生成系
+perlin(int start_r, int end_r, int range);
+	//Perlinノイズによる画像を生成します.どんな値を指定してもバグリマ線
+srand(int seed);
+	//Perlinノイズ生成に使用するシードを設定します(デフォルトは1).
+sinplasma(int scale, int offset_x, int offset_y);
+	//サインプラズマを生成します.
+sinenv(UCHAR brightness, int width, int height);
+
+■色
+↓の引数はunsigned char(0～255)です.
+color(r,g,b,a);
+	//今後描画するものの色を決定します.
+fill(r,g,b,a);
+	//ピクセル列全体を指定色で埋めます.
+Transparent(r,g,b,a);
+	//R,G,Bで指定された色と同一の色のピクセルに対してAで与えられた値をα値として設定します.
+※Transparent()を除くすべての関数は, ChangeChannel()によって指定された色のみに対して演算を行います.
+
+■マスク加工
+emboss(int strength);	//エンボス
+edge(int strength);	//エッジ抽出
+sharp(int strength, int ceter); //先鋭化. centerには, 中心の重みを設定.
+blur(int xweight, yweight);
+anti(void);//安置エイリアス
+各関数のstrengthには, 対象画素への影響の強さを指定します(以前までのバージョンはすべて1で計算).
+
+■演算系
+Operator(type);	//画像合成のオペレータを指定します.typeには,以下の定数が指定できます.
+or		//r - 設定後に描画されるデータで、それ以前に描画されたデータを上書きします.
+Op(type);	//+ - 描画先ピクセル値(Dest)と描画元ピクセル値(Src)同士の加算を行います.
+		//- - DestからSrcぶん減算します.
+		//* - DestとSrcの乗算をします.
+		/// - DestをSrcで割ります.
+		//% - DestをSrcで割りった余りをとります.
+		//& - DestとSrcのANDをとります.
+		//| - DestとSrcのORをとります.
+		//^ - DestとSrcのXORをとります.
+		//e
+		//n
+		//注意:	Operator():を呼び出しただけでは状態の変化は発生しません.
+		//		今後のピクセル演算のための手法を内部に保存するだけです.
+Update();	//ピクセル演算を再実行します.Operator():を呼び出した後に動作を反映させるために使用できます.
+		//参考: Operator(r):を呼び出した後にUpdate():を呼び出しても問題はありませんが,特に何も起こりません.
+
+Push();	//現在のピクセル列をスタックに積みます.
+		//参考: ５回まではスタックに積むことが出来, それ以後はPop():を呼び出さない限り,最後のスタックが上書きされていきます.
+Pop();	//スタックに積まれているピクセル列を, 現在のピクセル列に, Operator():で設定されている情報にしたがって合成を行います.
+
+Invert();	//画素値を反転しますdest = 255 - src;
+
+ChangeChannel(type);//ターゲットチャンネルを変更します.以下の6種類の使用が可能です(デフォルトはRGB).
+or		//R
+Channel();	//G
+		//B
+		//A
+		//RGB
+		//RGBA
+
+Font(string)	//textで使用されるフォントを設定.
+		//デフォルトはArial.
+		//使用できるフォントは, システムフォントのみ.
+		//以下、リスト
+		//Arial, Courier New, Lucida, Imapct, Times New Roman, Trebuchet, Verdana, Webdings, Sans Serif, Symbol
+
+Polygon(nVertex, ...)	//nVertex個の頂点から成る多角形を描画
+			//頂点は, 時計回りに描画される.
+
+RgbToA		//アクティブなチャンネルの値をalpha値に設定する.
+		//RGBの場合は, その平均値がalpha値になる
+
+mono		//補正されたモノクロ画像に変換する.		 
